@@ -1,4 +1,13 @@
 #!/bin/bash
+
+# SYNOPSIS
+#    iptables 
+#    iptables ip port
+
+# DESCRIPTION
+#   This script is to limit host is only send package to the special host.
+#      
+
 # $1 ip
 # $2 port
 
