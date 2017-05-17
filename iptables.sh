@@ -10,7 +10,7 @@
 #   Use 'iptables.sh ip port' to config special ip and port.
 #   Argument ip is the special host's ip.
 #   Argument port is to ssh connect. This script use "iptables -P OUTPUT DROP" 
-#   make server can't send data. So, we filst have to open a port for ssh connect.
+#   make server can't send data. So, we filst have to open a port for ssh.
 
 #   Use 'iptables.sh' to clear config.
 
