@@ -5,8 +5,14 @@
 #    iptables ip port
 
 # DESCRIPTION
-#   This script is to limit host is only send package to the special host.
-#      
+#   This script is to restrict a host to sending data noly to a specified host.
+#   This script has two types. 
+#   Use 'iptables.sh ip port' to config special ip and port.
+#   Argument ip is the special host's ip.
+#   Argument port is to ssh connect. This script use "iptables -P OUTPUT DROP" 
+#   make server can't send data. So, we filst have to open a port for ssh connect.
+
+#   Use 'iptables.sh' to clear config.
 
 # $1 ip
 # $2 port
